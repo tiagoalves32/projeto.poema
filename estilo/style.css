@@ -1,0 +1,114 @@
+ @charset "UTF-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+ :root {
+    --fontepadrao: Verdana, Helvetica, sans-serif;
+    --fontespecial: 'Satisfy', cursive;
+    --fontediferente: 'Great Vibes', cursive;
+ }
+
+ * {
+    margin: 0px;
+    padding: 0px;
+ }
+
+ body {
+    min-height: 100vh;
+    background-color: rgba(202, 72, 72, 0.5);
+ }
+
+ html {
+    min-height: 100vh;
+ }
+
+ a {
+    font-family: var(--fontespecial);
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+ }
+
+ a:hover {
+    text-decoration: underline;
+ }
+
+
+
+ header {
+    background-color: rgba(202, 72, 72, 0.014);
+    height: 180px;
+    padding-top: 45px;
+    text-align: center;
+ }
+
+ header h1 {
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.178);
+    font-family: var(--fontediferente);
+    font-size: 7.5vh;
+ }
+
+ header > p {
+    font-weight: bold;
+    font-family: var(--fontediferente);
+    font-size: 1.6em;
+    padding: 30px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.144);
+ }
+
+ section {
+    font-size: 5.0vh;
+    padding-left: 6vh;
+    padding-bottom: 7vh;
+    line-height: 4.5em;
+ }
+
+ section > p {
+    font-family: var(--fontediferente);
+    padding-top: 35px;
+    
+ }
+
+ section.imagem {
+    box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.212);
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('../imagens/casal.jpeg');
+    background-position: center center;
+  
+ }
+
+ section.imagem > p {
+    font-family: var(--fontespecial);
+    font-size: 5.0vh;
+    margin-top: 30px;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.24);
+    color:white;
+    background-color: rgba(0, 0, 0, 0.164);
+    padding-left: 5px;
+    padding-top: 20px;
+    padding-right: 5px;
+    border-radius: 15px;
+    display: inline-block;
+
+ }
+
+ #img2 {
+    background-image: url('../imagens/casal-por-do-sol.jpeg');
+    background-size: cover;
+  
+ }
+
+ footer {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 15px;
+ }
+
+ footer > p {
+    font-family: var(--fontespecial);
+    font-weight: normal;
+ }
+ 
